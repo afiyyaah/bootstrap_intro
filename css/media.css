@@ -1,0 +1,93 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    p{
+        font-size: 12px;
+    }
+    header{
+    background-color: #99C2FA;
+    min-height: 30px;
+    padding-top: 20px;
+}
+    .header_common_style{
+    background-color: #CFDFF9;
+    min-height: 30px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+ }
+    #hero, #content, footer{
+    margin:10px 0;
+}
+    
+    .hero_common_style{
+    background-color: #CFDFF9;
+    min-height: 30px;
+    margin: 2px 0;
+}
+    .ad{
+    min-height: 40px;
+    background-color: #69A6DD;
+}
+    .add_color{
+    background-color: #99C2FA;
+}
+     .body_common_style{
+    min-height: 40px;
+    background-color: #CFDFF9;
+    
+  
+}
+    .bigger{
+        min-height: 70px;
+    }
+} 
+
+/* Medium (tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:991px) {
+    .header_common_style{
+    background-color: #CFDFF9;
+    min-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+    
+    .hero_common_style{
+    background-color: #CFDFF9;
+    min-height: 60px;
+    margin: 10px 0;
+}
+    .body_common_style{
+    min-height: 140px;
+    background-color: #CFDFF9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    .bigger{
+        min-height: 250px;
+    }
+    .sidebar{
+    background-color: #99C2FA;
+    min-height: 60px;
+    padding:20px 10px 5px 10px;
+        margin-top: 10px;
+}
+    .sidebar_content{
+    min-height: 70px;
+     background-color: #CFDFF9;
+    
+}
+    .padding-right-disable{
+    padding-right: 0px;
+    padding-left: 0px !important;
+}
+    .ad{
+    min-height: 140px;
+        margin-top:10px;
+    background-color: #69A6DD;
+}
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px ) {
+    
+} 
